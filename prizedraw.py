@@ -12,9 +12,9 @@ upper=int(sys.argv[1]);
 sleep_time=0.01;
 iteration=0;
 
-while(iteration<250):
+while(iteration<350):
    print(random.randint(1, upper));
-   if(iteration>200): sleep_time+=0.01;
+   if(iteration>300): sleep_time+=0.01;
    iteration+=1;
    time.sleep(sleep_time);
 
